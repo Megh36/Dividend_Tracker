@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "*",
+      "PowerShell(Start-Sleep -Seconds 2; Add-Type -AssemblyName System.Net.Http; $client = [System.Net.Http.HttpClient]::new\\(\\); $client.Timeout = [TimeSpan]::FromSeconds\\(20\\); try { $task = $client.GetAsync\\(\"http://localhost:3000/stock/ITC.NS\"\\); $null = $task.Wait\\(20000\\); \"Status: $\\($task.Result.StatusCode\\)\" } catch { \"Error: $\\($_.Exception.InnerException.Message\\)\" } finally { $client.Dispose\\(\\) })",
+      "PowerShell(Start-Sleep -Seconds 3; Get-Content \"dev-live.txt\" | Select-Object -Last 50; \"===STDERR===\"; Get-Content \"dev-live-err.txt\" | Select-Object -Last 30)",
+      "PowerShell(Start-Sleep -Seconds 5; Get-Content \"dev-live.txt\" | Select-Object -Last 20; \"===\"; Get-Content \"dev-live-err.txt\" | Select-Object -Last 10)",
+      "PowerShell(Start-Sleep -Seconds 3; Add-Type -AssemblyName System.Net.Http; $client = [System.Net.Http.HttpClient]::new\\(\\); $client.Timeout = [TimeSpan]::FromSeconds\\(25\\); try { $task = $client.GetAsync\\(\"http://localhost:3000/stock/ITC.NS\"\\); $null = $task.Wait\\(25000\\); \"HTTP Status: $\\($task.Result.StatusCode\\)\" } catch { \"Error: $\\($_.Exception.InnerException.Message\\)\" } finally { $client.Dispose\\(\\) }; Start-Sleep -Seconds 3; Get-Content \"dev-live.txt\" | Select-Object -Last 10; \"===\"; Get-Content \"dev-live-err.txt\" | Select-Object -Last 5)",
+      "Bash(npx tsc *)",
+      "Bash(node node_modules/typescript/bin/tsc --noEmit)",
+      "Bash(echo \"exitcode=$?\")",
+      "Bash(echo \"exit=$?\")",
+      "Read(//tmp/**)",
+      "PowerShell(Set-Location \"C:\\\\Users\\\\Megh Patel\\\\Desktop\\\\dividend_tracker\"; $output = node node_modules/typescript/bin/tsc --noEmit 2>&1; Write-Host \"EXIT: $LASTEXITCODE\"; $output | ForEach-Object { Write-Host $_ })",
+      "PowerShell(Set-Location \"C:\\\\Users\\\\Megh Patel\\\\Desktop\\\\dividend_tracker\"; $output = npx next lint 2>&1; Write-Host \"EXIT: $LASTEXITCODE\"; $output | ForEach-Object { Write-Host $_ })",
+      "PowerShell(Set-Location \"C:\\\\Users\\\\Megh Patel\\\\Desktop\\\\dividend_tracker\"; $tsc = node node_modules/typescript/bin/tsc --noEmit 2>&1; Write-Host \"TSC EXIT: $LASTEXITCODE\"; $tsc | ForEach-Object { Write-Host $_ })",
+      "Bash(git init *)"
+    ]
+  }
+}

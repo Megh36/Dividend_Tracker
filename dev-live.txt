@@ -1,0 +1,654 @@
+
+> dividend_tracker@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+
+ ✓ Starting...
+ ✓ Ready in 5.8s
+ ○ Compiling / ...
+ ✓ Compiled / in 3.8s (663 modules)
+ GET / 200 in 4273ms
+ ✓ Compiled in 518ms (326 modules)
+ ○ Compiling /stock/[symbol] ...
+ ✓ Compiled /stock/[symbol] in 2.8s (1671 modules)
+ GET /stock/ITC.NS 500 in 4079ms
+ ✓ Compiled in 1231ms (1671 modules)
+ ✓ Compiled in 904ms (1671 modules)
+ GET /stock/ITC.NS 200 in 422ms
+ ✓ Compiled / in 457ms (848 modules)
+ GET / 200 in 957ms
+ ○ Compiling /api/stock/[symbol] ...
+ ✓ Compiled /api/stock/[symbol] in 1057ms (880 modules)
+ ✓ Compiled (1140 modules)
+ GET /favicon.ico 200 in 3327ms
+ GET /api/stock/POWERGRID.NS 200 in 7275ms
+ GET /api/stock/COALINDIA.NS 200 in 7290ms
+ GET /api/stock/INFY.NS 200 in 7482ms
+ GET /api/stock/HINDZINC.NS 200 in 7539ms
+ GET /api/stock/ITC.NS 200 in 7702ms
+ GET /api/stock/ONGC.NS 200 in 4625ms
+ GET /api/stock/TCS.NS 200 in 575ms
+ GET /api/stock/HDFCBANK.NS 200 in 649ms
+ GET /api/stock/SBIN.NS 200 in 565ms
+ GET /api/stock/BAJFINANCE.NS 200 in 592ms
+ GET /api/stock/POWERGRID.NS 200 in 364ms
+ GET /api/stock/COALINDIA.NS 200 in 305ms
+ GET /api/stock/INFY.NS 200 in 186ms
+ GET /api/stock/HINDZINC.NS 200 in 120ms
+ GET /api/stock/BRITANNIA.NS 200 in 649ms
+ GET /api/stock/NESTLEIND.NS 200 in 466ms
+ GET /api/stock/ITC.NS 200 in 102ms
+ GET /api/stock/ONGC.NS 200 in 211ms
+ GET /api/stock/TCS.NS 200 in 243ms
+ GET /api/stock/HDFCBANK.NS 200 in 242ms
+ GET /api/stock/SBIN.NS 200 in 247ms
+ GET /api/stock/BAJFINANCE.NS 200 in 245ms
+ GET /api/stock/BRITANNIA.NS 200 in 281ms
+ GET /api/stock/NESTLEIND.NS 200 in 195ms
+ ○ Compiling /api/dividends/[symbol] ...
+ ✓ Compiled /api/dividends/[symbol] in 656ms (1142 modules)
+ ✓ Compiled (1144 modules)
+ GET /api/history/INFY.NS?days=365 200 in 4478ms
+ GET /api/dividends/INFY.NS?years=5 200 in 4529ms
+ GET /api/history/INFY.NS?days=365 200 in 448ms
+ GET /api/stock/INFY.NS 200 in 5132ms
+ GET /api/stock/INFY.NS 200 in 53ms
+ GET /api/dividends/INFY.NS?years=5 200 in 1184ms
+ GET /api/stock/ITC.NS 200 in 921ms
+ GET /api/stock/COALINDIA.NS 200 in 1003ms
+ GET /api/stock/INFY.NS 200 in 1002ms
+ GET /api/stock/POWERGRID.NS 200 in 1293ms
+ GET /api/stock/HINDZINC.NS 200 in 1338ms
+ GET /api/stock/ONGC.NS 200 in 1537ms
+ GET /api/stock/TCS.NS 200 in 696ms
+ GET /api/stock/HDFCBANK.NS 200 in 628ms
+ GET /api/stock/SBIN.NS 200 in 796ms
+ GET /api/stock/BAJFINANCE.NS 200 in 729ms
+ GET /api/stock/ITC.NS 200 in 388ms
+ GET /api/stock/COALINDIA.NS 200 in 354ms
+ GET /api/stock/INFY.NS 200 in 188ms
+ GET /api/stock/BRITANNIA.NS 200 in 793ms
+ GET /api/stock/POWERGRID.NS 200 in 207ms
+ GET /api/stock/HINDZINC.NS 200 in 235ms
+ GET /api/stock/ONGC.NS 200 in 236ms
+ GET /api/stock/TCS.NS 200 in 234ms
+ GET /api/stock/NESTLEIND.NS 200 in 816ms
+ GET /api/stock/HDFCBANK.NS 200 in 167ms
+ GET /api/stock/SBIN.NS 200 in 113ms
+ GET /api/stock/BAJFINANCE.NS 200 in 153ms
+ GET /api/stock/BRITANNIA.NS 200 in 153ms
+ GET /api/stock/NESTLEIND.NS 200 in 151ms
+ GET /api/stock/HINDZINC.NS 200 in 161ms
+ GET /api/history/HINDZINC.NS?days=365 200 in 1000ms
+ GET /api/history/HINDZINC.NS?days=365 200 in 302ms
+ GET /api/dividends/HINDZINC.NS?years=5 200 in 1374ms
+ GET /api/stock/HINDZINC.NS 200 in 1280ms
+ GET /api/dividends/HINDZINC.NS?years=5 200 in 820ms
+ GET /api/stock/ITC.NS 200 in 107ms
+ GET /api/stock/COALINDIA.NS 200 in 254ms
+ GET /api/stock/POWERGRID.NS 200 in 284ms
+ GET /api/stock/HINDZINC.NS 200 in 284ms
+ GET /api/stock/INFY.NS 200 in 284ms
+ GET /api/stock/ONGC.NS 200 in 284ms
+ GET /api/stock/TCS.NS 200 in 246ms
+ GET /api/stock/HDFCBANK.NS 200 in 105ms
+ GET /api/stock/SBIN.NS 200 in 201ms
+ GET /api/stock/BAJFINANCE.NS 200 in 201ms
+ GET /api/stock/BRITANNIA.NS 200 in 203ms
+ GET /api/stock/NESTLEIND.NS 200 in 199ms
+ GET /api/stock/ITC.NS 200 in 203ms
+ GET /api/stock/COALINDIA.NS 200 in 225ms
+ GET /api/stock/POWERGRID.NS 200 in 219ms
+ GET /api/stock/HINDZINC.NS 200 in 247ms
+ GET /api/stock/INFY.NS 200 in 248ms
+ GET /api/stock/ONGC.NS 200 in 248ms
+ GET /api/stock/TCS.NS 200 in 287ms
+ GET /api/stock/HDFCBANK.NS 200 in 282ms
+ GET /api/stock/SBIN.NS 200 in 128ms
+ GET /api/stock/BAJFINANCE.NS 200 in 197ms
+ GET /api/stock/BRITANNIA.NS 200 in 196ms
+ GET /api/stock/NESTLEIND.NS 200 in 196ms
+ ✓ Compiled in 2.8s (1694 modules)
+ ✓ Compiled in 1555ms (837 modules)
+ ✓ Compiled in 920ms (837 modules)
+ ✓ Compiled in 4s (1685 modules)
+ ✓ Compiled in 2s (1685 modules)
+ ✓ Compiled /api/stock/[symbol] in 463ms (1111 modules)
+ GET /api/stock/COALINDIA.NS 200 in 3840ms
+ GET /api/stock/POWERGRID.NS 200 in 3838ms
+ GET /api/stock/HINDZINC.NS 200 in 4192ms
+ GET /api/stock/INFY.NS 200 in 4257ms
+ GET /api/stock/ONGC.NS 200 in 4504ms
+ GET /api/stock/ITC.NS 200 in 4695ms
+ GET /api/stock/TCS.NS 200 in 1006ms
+ GET /api/stock/HDFCBANK.NS 200 in 1067ms
+ GET /api/stock/BAJFINANCE.NS 200 in 953ms
+ GET /api/stock/SBIN.NS 200 in 1039ms
+ GET /api/stock/COALINDIA.NS 200 in 596ms
+ GET /api/stock/POWERGRID.NS 200 in 532ms
+ GET /api/stock/HINDZINC.NS 200 in 237ms
+ GET /api/stock/INFY.NS 200 in 202ms
+ GET /api/stock/BRITANNIA.NS 200 in 1036ms
+ GET /api/stock/ONGC.NS 200 in 134ms
+ GET /api/stock/ITC.NS 200 in 132ms
+ GET /api/stock/TCS.NS 200 in 133ms
+ GET /api/stock/HDFCBANK.NS 200 in 132ms
+ GET /api/stock/NESTLEIND.NS 200 in 1070ms
+ GET /api/stock/BAJFINANCE.NS 200 in 181ms
+ GET /api/stock/SBIN.NS 200 in 89ms
+ GET /api/stock/BRITANNIA.NS 200 in 119ms
+ GET /api/stock/NESTLEIND.NS 200 in 93ms
+ ✓ Compiled in 3.5s (1948 modules)
+ ✓ Compiled in 1822ms (1948 modules)
+ ✓ Compiled in 1994ms (1948 modules)
+ ✓ Compiled in 1867ms (1948 modules)
+ ✓ Compiled in 1789ms (1948 modules)
+ ✓ Compiled in 1970ms (1948 modules)
+ ✓ Compiled in 1727ms (1948 modules)
+ ✓ Compiled in 1891ms (1948 modules)
+ ✓ Compiled in 1689ms (1948 modules)
+ ✓ Compiled in 1659ms (1948 modules)
+ ✓ Compiled in 1691ms (1685 modules)
+ ✓ Compiled in 1730ms (1685 modules)
+ ✓ Compiled in 1866ms (1685 modules)
+ ✓ Compiled in 1765ms (1685 modules)
+ ✓ Compiled in 1011ms (1685 modules)
+ ✓ Compiled in 1676ms (1685 modules)
+ ✓ Compiled in 1675ms (1685 modules)
+ ✓ Compiled in 1692ms (1685 modules)
+ ✓ Compiled in 1684ms (1685 modules)
+ ✓ Compiled in 1666ms (1685 modules)
+ ✓ Compiled in 1667ms (1685 modules)
+ ✓ Compiled in 1722ms (1685 modules)
+ ✓ Compiled in 1850ms (1685 modules)
+ ✓ Compiled in 2.1s (1685 modules)
+ ✓ Compiled in 1960ms (1685 modules)
+ ✓ Compiled in 2.4s (1685 modules)
+ ✓ Compiled in 1772ms (1685 modules)
+ ✓ Compiled in 3.3s (1693 modules)
+ ✓ Compiled in 3.5s (1693 modules)
+ ✓ Compiled in 1921ms (1693 modules)
+ ✓ Compiled in 1787ms (1693 modules)
+ ✓ Compiled in 2.2s (1693 modules)
+ ✓ Compiled in 1435ms (1693 modules)
+ ✓ Compiled in 1667ms (1693 modules)
+ ○ Compiling /api/dividends/[symbol] ...
+ ✓ Compiled /api/dividends/[symbol] in 2.2s (1115 modules)
+ ✓ Compiled (1119 modules)
+ GET /api/dividends/INFY.NS?years=5 200 in 5753ms
+ GET /api/history/INFY.NS?days=365 200 in 5822ms
+ GET /api/stock/INFY.NS 200 in 6006ms
+ GET /api/stock/INFY.NS 200 in 134ms
+ GET /api/dividends/INFY.NS?years=5 200 in 493ms
+ GET /api/history/INFY.NS?days=365 200 in 444ms
+ GET /api/stock/COALINDIA.NS 200 in 433ms
+ GET /api/stock/ITC.NS 200 in 443ms
+ GET /api/stock/INFY.NS 200 in 576ms
+ GET /api/stock/HINDZINC.NS 200 in 681ms
+ GET /api/stock/POWERGRID.NS 200 in 712ms
+ GET /api/stock/ONGC.NS 200 in 869ms
+ GET /api/stock/TCS.NS 200 in 475ms
+ GET /api/stock/HDFCBANK.NS 200 in 546ms
+ GET /api/stock/SBIN.NS 200 in 456ms
+ GET /api/stock/BRITANNIA.NS 200 in 555ms
+ GET /api/stock/COALINDIA.NS 200 in 329ms
+ GET /api/stock/ITC.NS 200 in 251ms
+ GET /api/stock/INFY.NS 200 in 188ms
+ GET /api/stock/BAJFINANCE.NS 200 in 658ms
+ GET /api/stock/NESTLEIND.NS 200 in 462ms
+ GET /api/stock/HINDZINC.NS 200 in 213ms
+ GET /api/stock/POWERGRID.NS 200 in 213ms
+ GET /api/stock/TCS.NS 200 in 214ms
+ GET /api/stock/ONGC.NS 200 in 214ms
+ GET /api/stock/HDFCBANK.NS 200 in 178ms
+ GET /api/stock/SBIN.NS 200 in 170ms
+ GET /api/stock/BRITANNIA.NS 200 in 55ms
+ GET /api/stock/BAJFINANCE.NS 200 in 99ms
+ GET /api/stock/NESTLEIND.NS 200 in 99ms
+ GET /api/stock/HDFCBANK.NS 200 in 253ms
+ GET /api/history/HDFCBANK.NS?days=365 200 in 1090ms
+ GET /api/dividends/HDFCBANK.NS?years=5 200 in 1338ms
+ GET /api/history/HDFCBANK.NS?days=365 200 in 409ms
+ GET /api/dividends/HDFCBANK.NS?years=5 200 in 380ms
+ GET /api/stock/HDFCBANK.NS 200 in 1457ms
+ GET /api/stock/ITC.NS 200 in 343ms
+ GET /api/stock/COALINDIA.NS 200 in 366ms
+ GET /api/stock/POWERGRID.NS 200 in 361ms
+ GET /api/stock/HINDZINC.NS 200 in 360ms
+ GET /api/stock/INFY.NS 200 in 359ms
+ GET /api/stock/ONGC.NS 200 in 358ms
+ GET /api/stock/HDFCBANK.NS 200 in 219ms
+ GET /api/stock/TCS.NS 200 in 216ms
+ GET /api/stock/SBIN.NS 200 in 215ms
+ GET /api/stock/BAJFINANCE.NS 200 in 214ms
+ GET /api/stock/BRITANNIA.NS 200 in 213ms
+ GET /api/stock/NESTLEIND.NS 200 in 212ms
+ GET /api/stock/ITC.NS 200 in 84ms
+ GET /api/stock/COALINDIA.NS 200 in 462ms
+ GET /api/stock/POWERGRID.NS 200 in 492ms
+ GET /api/stock/HINDZINC.NS 200 in 492ms
+ GET /api/stock/INFY.NS 200 in 492ms
+ GET /api/stock/ONGC.NS 200 in 492ms
+ GET /api/stock/HDFCBANK.NS 200 in 525ms
+ GET /api/stock/TCS.NS 200 in 209ms
+ GET /api/stock/SBIN.NS 200 in 315ms
+ GET /api/stock/BAJFINANCE.NS 200 in 345ms
+ GET /api/stock/BRITANNIA.NS 200 in 343ms
+ GET /api/stock/NESTLEIND.NS 200 in 342ms
+ ✓ Compiled in 1016ms (1693 modules)
+ ✓ Compiled in 447ms (841 modules)
+ ✓ Compiled in 880ms (1693 modules)
+ ✓ Compiled /api/stock/[symbol] in 229ms (1115 modules)
+ GET /api/stock/POWERGRID.NS 200 in 3144ms
+ GET /api/stock/COALINDIA.NS 200 in 3457ms
+ GET /api/stock/HINDZINC.NS 200 in 3472ms
+ GET /api/stock/INFY.NS 200 in 3733ms
+ GET /api/stock/ONGC.NS 200 in 3811ms
+ GET /api/stock/ITC.NS 200 in 4114ms
+ GET /api/stock/TCS.NS 200 in 986ms
+ GET /api/stock/HDFCBANK.NS 200 in 1016ms
+ GET /api/stock/SBIN.NS 200 in 1095ms
+ GET /api/stock/BAJFINANCE.NS 200 in 966ms
+ GET /api/stock/POWERGRID.NS 200 in 579ms
+ GET /api/stock/COALINDIA.NS 200 in 240ms
+ GET /api/stock/HINDZINC.NS 200 in 153ms
+ GET /api/stock/BRITANNIA.NS 200 in 979ms
+ GET /api/stock/INFY.NS 200 in 101ms
+ GET /api/stock/ONGC.NS 200 in 101ms
+ GET /api/stock/ITC.NS 200 in 100ms
+ GET /api/stock/TCS.NS 200 in 101ms
+ GET /api/stock/HDFCBANK.NS 200 in 103ms
+ GET /api/stock/SBIN.NS 200 in 57ms
+ GET /api/stock/BAJFINANCE.NS 200 in 56ms
+ GET /api/stock/BRITANNIA.NS 200 in 55ms
+ GET /api/stock/NESTLEIND.NS 200 in 906ms
+ GET /api/stock/NESTLEIND.NS 200 in 20ms
+ ✓ Compiled in 1129ms (1956 modules)
+ ✓ Compiled in 781ms (1956 modules)
+ ✓ Compiled in 848ms (1693 modules)
+ ✓ Compiled in 1246ms (1691 modules)
+ ✓ Compiled in 1692ms (1691 modules)
+ ✓ Compiled in 1432ms (1691 modules)
+ ✓ Compiled in 1223ms (1691 modules)
+ ✓ Compiled in 1267ms (1691 modules)
+ ✓ Compiled in 1396ms (1691 modules)
+ ✓ Compiled in 1455ms (1683 modules)
+ ✓ Compiled in 1782ms (1683 modules)
+ ○ Compiling /api/dividends/[symbol] ...
+ ✓ Compiled /api/dividends/[symbol] in 2.3s (1110 modules)
+ ✓ Compiled (1114 modules)
+ GET /api/history/BAJFINANCE.NS?days=365 200 in 5417ms
+ GET /api/dividends/BAJFINANCE.NS?years=5 200 in 5483ms
+ GET /api/history/BAJFINANCE.NS?days=365 200 in 310ms
+ GET /api/stock/BAJFINANCE.NS 200 in 5874ms
+ GET /api/stock/BAJFINANCE.NS 200 in 74ms
+ GET /api/dividends/BAJFINANCE.NS?years=5 200 in 590ms
+ GET /api/stock/INFY.NS 200 in 506ms
+ GET /api/stock/ONGC.NS 200 in 657ms
+ GET /api/stock/ITC.NS 200 in 736ms
+ GET /api/stock/COALINDIA.NS 200 in 857ms
+ GET /api/stock/POWERGRID.NS 200 in 979ms
+ GET /api/stock/HINDZINC.NS 200 in 1117ms
+ GET /api/stock/HDFCBANK.NS 200 in 640ms
+ GET /api/stock/BAJFINANCE.NS 200 in 438ms
+ GET /api/stock/TCS.NS 200 in 921ms
+ GET /api/stock/SBIN.NS 200 in 755ms
+ GET /api/stock/INFY.NS 200 in 280ms
+ GET /api/stock/ONGC.NS 200 in 302ms
+ GET /api/stock/NESTLEIND.NS 200 in 602ms
+ GET /api/stock/BRITANNIA.NS 200 in 777ms
+ GET /api/stock/ITC.NS 200 in 347ms
+ GET /api/stock/COALINDIA.NS 200 in 313ms
+ GET /api/stock/POWERGRID.NS 200 in 213ms
+ GET /api/stock/HINDZINC.NS 200 in 344ms
+ GET /api/stock/HDFCBANK.NS 200 in 215ms
+ GET /api/stock/BAJFINANCE.NS 200 in 203ms
+ GET /api/stock/TCS.NS 200 in 297ms
+ GET /api/stock/SBIN.NS 200 in 297ms
+ GET /api/stock/NESTLEIND.NS 200 in 287ms
+ GET /api/stock/BRITANNIA.NS 200 in 224ms
+ GET /api/stock/INFY.NS 200 in 130ms
+ GET /api/history/INFY.NS?days=365 200 in 450ms
+ GET /api/dividends/INFY.NS?years=5 200 in 560ms
+ GET /api/stock/INFY.NS 200 in 389ms
+ GET /api/history/INFY.NS?days=365 200 in 176ms
+ GET /api/dividends/INFY.NS?years=5 200 in 352ms
+ GET /api/stock/ITC.NS 200 in 129ms
+ GET /api/stock/COALINDIA.NS 200 in 323ms
+ GET /api/stock/POWERGRID.NS 200 in 325ms
+ GET /api/stock/HINDZINC.NS 200 in 325ms
+ GET /api/stock/INFY.NS 200 in 327ms
+ GET /api/stock/ONGC.NS 200 in 327ms
+ GET /api/stock/TCS.NS 200 in 360ms
+ GET /api/stock/HDFCBANK.NS 200 in 277ms
+ GET /api/stock/SBIN.NS 200 in 274ms
+ GET /api/stock/BAJFINANCE.NS 200 in 272ms
+ GET /api/stock/BRITANNIA.NS 200 in 271ms
+ GET /api/stock/NESTLEIND.NS 200 in 271ms
+ GET /api/stock/ITC.NS 200 in 287ms
+ GET /api/stock/POWERGRID.NS 200 in 262ms
+ GET /api/stock/COALINDIA.NS 200 in 288ms
+ GET /api/stock/HINDZINC.NS 200 in 288ms
+ GET /api/stock/INFY.NS 200 in 287ms
+ GET /api/stock/ONGC.NS 200 in 286ms
+ GET /api/stock/TCS.NS 200 in 316ms
+ GET /api/stock/HDFCBANK.NS 200 in 261ms
+ GET /api/stock/SBIN.NS 200 in 258ms
+ GET /api/stock/BAJFINANCE.NS 200 in 257ms
+ GET /api/stock/BRITANNIA.NS 200 in 256ms
+ GET /api/stock/NESTLEIND.NS 200 in 256ms
+ ✓ Compiled in 1597ms (1683 modules)
+ ✓ Compiled in 980ms (1681 modules)
+ ○ Compiling /api/dividends/[symbol] ...
+ ✓ Compiled /api/dividends/[symbol] in 834ms (1109 modules)
+ ✓ Compiled (1113 modules)
+ GET /api/history/INFY.NS?days=365 200 in 2790ms
+ GET /api/dividends/INFY.NS?years=5 200 in 2805ms
+ GET /api/history/INFY.NS?days=365 200 in 225ms
+ GET /api/stock/INFY.NS 200 in 3120ms
+ GET /api/stock/INFY.NS 200 in 97ms
+ GET /api/dividends/INFY.NS?years=5 200 in 487ms
+ ✓ Compiled in 1316ms (1681 modules)
+ ✓ Compiled in 842ms (1681 modules)
+ ✓ Compiled in 1497ms (1681 modules)
+ ✓ Compiled in 1458ms (1681 modules)
+ ✓ Compiled in 1421ms (1681 modules)
+ ✓ Compiled in 1433ms (1681 modules)
+ ✓ Compiled in 1189ms (1681 modules)
+ ✓ Compiled in 1332ms (1681 modules)
+ ✓ Compiled in 1075ms (1681 modules)
+ ✓ Compiled in 1039ms (1681 modules)
+ ✓ Compiled in 1068ms (1681 modules)
+ ✓ Compiled in 1089ms (1681 modules)
+ ✓ Compiled in 1359ms (1681 modules)
+ ○ Compiling /api/stock/[symbol] ...
+ ✓ Compiled /api/stock/[symbol] in 1800ms (1109 modules)
+ GET /api/stock/POWERGRID.NS 200 in 4802ms
+ GET /api/stock/COALINDIA.NS 200 in 4933ms
+ GET /api/stock/HINDZINC.NS 200 in 5136ms
+ GET /api/stock/INFY.NS 200 in 5307ms
+ GET /api/stock/ITC.NS 200 in 5605ms
+ GET /api/stock/ONGC.NS 200 in 5620ms
+ GET /api/stock/TCS.NS 200 in 900ms
+ GET /api/stock/HDFCBANK.NS 200 in 976ms
+ GET /api/stock/SBIN.NS 200 in 908ms
+ GET /api/stock/BAJFINANCE.NS 200 in 943ms
+ GET /api/stock/POWERGRID.NS 200 in 675ms
+ GET /api/stock/COALINDIA.NS 200 in 556ms
+ GET /api/stock/HINDZINC.NS 200 in 349ms
+ GET /api/stock/INFY.NS 200 in 165ms
+ GET /api/stock/BRITANNIA.NS 200 in 1008ms
+ GET /api/stock/NESTLEIND.NS 200 in 1006ms
+ GET /api/stock/ITC.NS 200 in 225ms
+ GET /api/stock/ONGC.NS 200 in 252ms
+ GET /api/stock/TCS.NS 200 in 251ms
+ GET /api/stock/HDFCBANK.NS 200 in 250ms
+ GET /api/stock/SBIN.NS 200 in 264ms
+ GET /api/stock/BAJFINANCE.NS 200 in 262ms
+ GET /api/stock/BRITANNIA.NS 200 in 159ms
+ GET /api/stock/NESTLEIND.NS 200 in 157ms
+ ✓ Compiled in 1097ms (1681 modules)
+ ✓ Compiled in 696ms (1681 modules)
+ ✓ Compiled in 371ms (1681 modules)
+ ✓ Compiled in 651ms (1681 modules)
+ ✓ Compiled in 499ms (1681 modules)
+ ✓ Compiled in 540ms (1681 modules)
+ ✓ Compiled in 819ms (1681 modules)
+ ✓ Compiled in 468ms (1681 modules)
+ ✓ Compiled in 416ms (1681 modules)
+ ✓ Compiled in 562ms (1681 modules)
+ ✓ Compiled in 397ms (1681 modules)
+ ✓ Compiled in 714ms (1681 modules)
+ ✓ Compiled in 510ms (1681 modules)
+ GET / 200 in 444ms
+ ○ Compiling /api/stock/[symbol] ...
+ ✓ Compiled /api/stock/[symbol] in 597ms (878 modules)
+ ✓ Compiled (1138 modules)
+ GET /favicon.ico 200 in 1840ms
+ GET /api/stock/POWERGRID.NS 200 in 3717ms
+ GET /api/stock/COALINDIA.NS 200 in 3793ms
+ GET /api/stock/HINDZINC.NS 200 in 3891ms
+ GET /api/stock/INFY.NS 200 in 3945ms
+ GET /api/stock/ITC.NS 200 in 4081ms
+ GET /api/stock/ONGC.NS 200 in 2396ms
+ GET /api/stock/TCS.NS 200 in 446ms
+ GET /api/stock/HDFCBANK.NS 200 in 434ms
+ GET /api/stock/SBIN.NS 200 in 440ms
+ GET /api/stock/BAJFINANCE.NS 200 in 453ms
+ GET /api/stock/POWERGRID.NS 200 in 255ms
+ GET /api/stock/COALINDIA.NS 200 in 189ms
+ GET /api/stock/HINDZINC.NS 200 in 109ms
+ GET /api/stock/INFY.NS 200 in 88ms
+ GET /api/stock/BRITANNIA.NS 200 in 416ms
+ GET /api/stock/ITC.NS 200 in 102ms
+ GET /api/stock/ONGC.NS 200 in 102ms
+ GET /api/stock/TCS.NS 200 in 102ms
+ GET /api/stock/NESTLEIND.NS 200 in 517ms
+ GET /api/stock/HDFCBANK.NS 200 in 156ms
+ GET /api/stock/SBIN.NS 200 in 156ms
+ GET /api/stock/BAJFINANCE.NS 200 in 109ms
+ GET /api/stock/BRITANNIA.NS 200 in 107ms
+ GET /api/stock/NESTLEIND.NS 200 in 93ms
+ ✓ Compiled in 1091ms (1681 modules)
+ ✓ Compiled in 624ms (1681 modules)
+ ✓ Compiled in 794ms (1677 modules)
+   Reload env: .env.local
+ ✓ Compiled in 489ms (1667 modules)
+ ✓ Compiled in 215ms (835 modules)
+ ✓ Compiled in 327ms (1681 modules)
+ ○ Compiling /api/dividends/[symbol] ...
+ ✓ Compiled /api/dividends/[symbol] in 760ms (1109 modules)
+ ✓ Compiled (1113 modules)
+ GET /api/history/INFY.NS?days=365 200 in 2314ms
+ GET /api/dividends/INFY.NS?years=5 200 in 2357ms
+ GET /api/stock/INFY.NS 200 in 2516ms
+ GET /api/history/INFY.NS?days=365 200 in 208ms
+ GET /api/stock/INFY.NS 200 in 75ms
+ GET /api/dividends/INFY.NS?years=5 200 in 431ms
+ GET /api/stock/COALINDIA.NS 200 in 470ms
+ GET /api/stock/ITC.NS 200 in 498ms
+ GET /api/stock/INFY.NS 200 in 583ms
+ GET /api/stock/HINDZINC.NS 200 in 643ms
+ GET /api/stock/POWERGRID.NS 200 in 694ms
+ GET /api/stock/ONGC.NS 200 in 800ms
+ GET /api/stock/SBIN.NS 200 in 364ms
+ GET /api/stock/BAJFINANCE.NS 200 in 511ms
+ GET /api/stock/BRITANNIA.NS 200 in 439ms
+ GET /api/stock/NESTLEIND.NS 200 in 464ms
+ GET /api/stock/COALINDIA.NS 200 in 311ms
+ GET /api/stock/ITC.NS 200 in 150ms
+ GET /api/stock/INFY.NS 200 in 144ms
+ GET /api/stock/HINDZINC.NS 200 in 60ms
+ GET /api/stock/TCS.NS 200 in 661ms
+ GET /api/stock/HDFCBANK.NS 200 in 563ms
+ GET /api/stock/POWERGRID.NS 200 in 266ms
+ GET /api/stock/ONGC.NS 200 in 260ms
+ GET /api/stock/SBIN.NS 200 in 257ms
+ GET /api/stock/BAJFINANCE.NS 200 in 246ms
+ GET /api/stock/BRITANNIA.NS 200 in 182ms
+ GET /api/stock/NESTLEIND.NS 200 in 207ms
+ GET /api/stock/TCS.NS 200 in 88ms
+ GET /api/stock/HDFCBANK.NS 200 in 87ms
+ ✓ Compiled /api/cron/weekly-alert in 489ms (1132 modules)
+ GET /api/stock/HDFCBANK.NS 200 in 1424ms
+ GET /api/stock/INFY.NS 200 in 1444ms
+ GET /api/stock/POWERGRID.NS 200 in 1559ms
+ GET /api/stock/COALINDIA.NS 200 in 1604ms
+ GET /api/stock/HINDZINC.NS 200 in 1696ms
+ GET /api/stock/ONGC.NS 200 in 1767ms
+ GET /api/stock/ITC.NS 200 in 1837ms
+ GET /api/stock/TCS.NS 200 in 1918ms
+ GET /api/stock/BAJFINANCE.NS 200 in 1979ms
+ GET /api/stock/NESTLEIND.NS 200 in 2067ms
+ GET /api/stock/SBIN.NS 200 in 2210ms
+ GET /api/stock/BRITANNIA.NS 200 in 2223ms
+ GET /api/cron/weekly-alert 200 in 4354ms
+ ✓ Compiled in 365ms (835 modules)
+ ✓ Compiled in 251ms (835 modules)
+ ✓ Compiled in 197ms (835 modules)
+ ✓ Compiled in 570ms (1667 modules)
+ ✓ Compiled in 366ms (835 modules)
+ ✓ Compiled in 568ms (1681 modules)
+ ✓ Compiled in 310ms (835 modules)
+ ✓ Compiled in 189ms (835 modules)
+ ✓ Compiled in 205ms (835 modules)
+ ✓ Compiled in 256ms (835 modules)
+ ✓ Compiled in 819ms (1681 modules)
+ ✓ Compiled in 788ms (1685 modules)
+ ✓ Compiled in 541ms (1685 modules)
+ ✓ Compiled in 758ms (1685 modules)
+ ✓ Compiled in 243ms (837 modules)
+ ✓ Compiled in 260ms (837 modules)
+ ○ Compiling /compare ...
+ ✓ Compiled /compare in 1168ms (1703 modules)
+ ✓ Compiled in 219ms (845 modules)
+ ✓ Compiled /api/dividends/[symbol] in 455ms (1121 modules)
+ ✓ Compiled (1125 modules)
+ GET /api/history/INFY.NS?days=365 500 in 967ms
+ GET /api/dividends/INFY.NS?years=5 500 in 965ms
+ GET /api/stock/INFY.NS 404 in 983ms
+ GET /api/history/INFY.NS?days=365 500 in 55ms
+ GET /api/dividends/INFY.NS?years=5 500 in 69ms
+ GET /api/stock/INFY.NS 404 in 65ms
+ GET /api/history/INFY.NS?days=365 200 in 1851ms
+ GET /api/dividends/INFY.NS?years=5 200 in 1868ms
+ GET /api/stock/INFY.NS 200 in 2611ms
+ GET /api/stock/COALINDIA.NS 200 in 1146ms
+ GET /api/stock/ITC.NS 200 in 1256ms
+ GET /api/stock/POWERGRID.NS 200 in 1279ms
+ GET /api/stock/HINDZINC.NS 200 in 1269ms
+ GET /api/stock/ONGC.NS 200 in 1258ms
+ GET /api/stock/HDFCBANK.NS 200 in 621ms
+ GET /api/stock/TCS.NS 200 in 840ms
+ GET /api/stock/SBIN.NS 200 in 584ms
+ GET /api/stock/BAJFINANCE.NS 200 in 903ms
+ GET /api/stock/INFY.NS 200 in 415ms
+ GET /api/stock/BRITANNIA.NS 200 in 751ms
+ GET /api/stock/POWERGRID.NS 200 in 163ms
+ GET /api/stock/NESTLEIND.NS 200 in 900ms
+ GET /api/stock/COALINDIA.NS 200 in 654ms
+ GET /api/stock/HINDZINC.NS 200 in 496ms
+ GET /api/stock/ITC.NS 200 in 895ms
+ GET /api/stock/ONGC.NS 200 in 574ms
+ GET /api/stock/HDFCBANK.NS 200 in 516ms
+ GET /api/stock/SBIN.NS 200 in 667ms
+ GET /api/stock/BAJFINANCE.NS 200 in 444ms
+ GET /api/stock/INFY.NS 200 in 543ms
+ ✓ Compiled /api/compare in 239ms (1127 modules)
+ GET /api/stock/BRITANNIA.NS 200 in 594ms
+ GET /api/stock/TCS.NS 200 in 1051ms
+ GET /api/stock/NESTLEIND.NS 200 in 834ms
+ GET /api/compare?symbols=INFY.NS%2CTCS.NS 200 in 3071ms
+ GET /api/compare?symbols=INFY.NS%2CTCS.NS 200 in 410ms
+ GET /api/stock/ITC.NS 200 in 435ms
+ GET /api/stock/COALINDIA.NS 200 in 466ms
+ GET /api/stock/HINDZINC.NS 200 in 602ms
+ GET /api/stock/INFY.NS 200 in 633ms
+ GET /api/stock/POWERGRID.NS 200 in 747ms
+ GET /api/stock/ONGC.NS 200 in 787ms
+ GET /api/stock/TCS.NS 200 in 497ms
+ GET /api/stock/HDFCBANK.NS 200 in 489ms
+ GET /api/stock/SBIN.NS 200 in 533ms
+ GET /api/stock/BAJFINANCE.NS 200 in 519ms
+ GET /api/stock/ITC.NS 200 in 187ms
+ GET /api/stock/COALINDIA.NS 200 in 185ms
+ GET /api/stock/HINDZINC.NS 200 in 44ms
+ GET /api/stock/INFY.NS 200 in 43ms
+ GET /api/stock/POWERGRID.NS 200 in 44ms
+ GET /api/stock/ONGC.NS 200 in 45ms
+ GET /api/stock/BRITANNIA.NS 200 in 478ms
+ GET /api/stock/TCS.NS 200 in 58ms
+ GET /api/stock/HDFCBANK.NS 200 in 65ms
+ GET /api/stock/SBIN.NS 200 in 66ms
+ GET /api/stock/BAJFINANCE.NS 200 in 66ms
+ GET /api/stock/NESTLEIND.NS 200 in 525ms
+ GET /api/stock/BRITANNIA.NS 200 in 70ms
+ GET /api/stock/NESTLEIND.NS 200 in 20ms
+ GET /api/stock/INFY.NS 200 in 265ms
+ GET /api/history/INFY.NS?days=365 200 in 986ms
+ GET /api/dividends/INFY.NS?years=5 200 in 1241ms
+ GET /api/history/INFY.NS?days=365 200 in 370ms
+ GET /api/stock/INFY.NS 200 in 1025ms
+ GET /api/dividends/INFY.NS?years=5 200 in 374ms
+ GET /api/stock/ITC.NS 200 in 331ms
+ GET /api/stock/INFY.NS 200 in 439ms
+ GET /api/stock/ONGC.NS 200 in 440ms
+ GET /api/stock/COALINDIA.NS 200 in 440ms
+ GET /api/stock/POWERGRID.NS 200 in 440ms
+ GET /api/stock/HINDZINC.NS 200 in 440ms
+ GET /api/stock/TCS.NS 200 in 315ms
+ GET /api/stock/HDFCBANK.NS 200 in 342ms
+ GET /api/stock/SBIN.NS 200 in 341ms
+ GET /api/stock/BAJFINANCE.NS 200 in 343ms
+ GET /api/stock/BRITANNIA.NS 200 in 336ms
+ GET /api/stock/NESTLEIND.NS 200 in 335ms
+ GET /api/stock/ITC.NS 200 in 467ms
+ GET /api/stock/INFY.NS 200 in 453ms
+ GET /api/stock/ONGC.NS 200 in 447ms
+ GET /api/stock/COALINDIA.NS 200 in 444ms
+ GET /api/stock/POWERGRID.NS 200 in 440ms
+ GET /api/stock/HINDZINC.NS 200 in 438ms
+ GET /api/stock/TCS.NS 200 in 239ms
+ GET /api/stock/HDFCBANK.NS 200 in 266ms
+ GET /api/stock/SBIN.NS 200 in 266ms
+ GET /api/stock/BAJFINANCE.NS 200 in 264ms
+ GET /api/stock/BRITANNIA.NS 200 in 265ms
+ GET /api/stock/NESTLEIND.NS 200 in 266ms
+ GET /api/stock/HDFCBANK.NS 200 in 192ms
+ GET /api/history/HDFCBANK.NS?days=365 200 in 826ms
+ GET /api/dividends/HDFCBANK.NS?years=5 200 in 970ms
+ GET /api/stock/HDFCBANK.NS 200 in 650ms
+ GET /api/history/HDFCBANK.NS?days=365 200 in 286ms
+ GET /api/dividends/HDFCBANK.NS?years=5 200 in 304ms
+ GET /api/stock/ITC.NS 200 in 306ms
+ GET /api/stock/COALINDIA.NS 200 in 333ms
+ GET /api/stock/POWERGRID.NS 200 in 333ms
+ GET /api/stock/HINDZINC.NS 200 in 333ms
+ GET /api/stock/INFY.NS 200 in 330ms
+ GET /api/stock/ONGC.NS 200 in 331ms
+ GET /api/stock/TCS.NS 200 in 349ms
+ GET /api/stock/HDFCBANK.NS 200 in 374ms
+ GET /api/stock/SBIN.NS 200 in 374ms
+ GET /api/stock/BAJFINANCE.NS 200 in 372ms
+ GET /api/stock/BRITANNIA.NS 200 in 371ms
+ GET /api/stock/NESTLEIND.NS 200 in 369ms
+ GET /api/stock/ITC.NS 200 in 312ms
+ GET /api/stock/COALINDIA.NS 200 in 338ms
+ GET /api/stock/POWERGRID.NS 200 in 337ms
+ GET /api/stock/HINDZINC.NS 200 in 330ms
+ GET /api/stock/INFY.NS 200 in 328ms
+ GET /api/stock/ONGC.NS 200 in 326ms
+ GET /api/stock/TCS.NS 200 in 218ms
+ GET /api/stock/HDFCBANK.NS 200 in 217ms
+ GET /api/stock/SBIN.NS 200 in 217ms
+ GET /api/stock/BAJFINANCE.NS 200 in 215ms
+ GET /api/stock/BRITANNIA.NS 200 in 215ms
+ GET /api/stock/NESTLEIND.NS 200 in 215ms
+ GET /api/compare?symbols=INFY.NS%2CTCS.NS 200 in 592ms
+ GET /api/compare?symbols=INFY.NS%2CTCS.NS 200 in 182ms
+ GET /api/stock/ITC.NS 200 in 449ms
+ GET /api/stock/COALINDIA.NS 200 in 441ms
+ GET /api/stock/POWERGRID.NS 200 in 438ms
+ GET /api/stock/HINDZINC.NS 200 in 438ms
+ GET /api/stock/INFY.NS 200 in 436ms
+ GET /api/stock/ONGC.NS 200 in 436ms
+ GET /api/stock/TCS.NS 200 in 402ms
+ GET /api/stock/HDFCBANK.NS 200 in 423ms
+ GET /api/stock/SBIN.NS 200 in 420ms
+ GET /api/stock/BAJFINANCE.NS 200 in 416ms
+ GET /api/stock/BRITANNIA.NS 200 in 409ms
+ GET /api/stock/NESTLEIND.NS 200 in 400ms
+ GET /api/stock/ITC.NS 200 in 366ms
+ GET /api/stock/COALINDIA.NS 200 in 390ms
+ GET /api/stock/POWERGRID.NS 200 in 389ms
+ GET /api/stock/HINDZINC.NS 200 in 389ms
+ GET /api/stock/INFY.NS 200 in 387ms
+ GET /api/stock/ONGC.NS 200 in 387ms
+ GET /api/stock/TCS.NS 200 in 366ms
+ GET /api/stock/HDFCBANK.NS 200 in 354ms
+ GET /api/stock/SBIN.NS 200 in 353ms
+ GET /api/stock/BAJFINANCE.NS 200 in 352ms
+ GET /api/stock/BRITANNIA.NS 200 in 350ms
+ GET /api/stock/NESTLEIND.NS 200 in 347ms
