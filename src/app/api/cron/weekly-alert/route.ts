@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { NextRequest, NextResponse } from "next/server";
+import { NextResponse } from "next/server";
 import { Resend } from "resend";
 import { buildAlertEmail } from "@/lib/email-template";
 
@@ -83,7 +83,7 @@ async function runAlert() {
   return { sent: true, count: urgentStocks.length };
 }
 
-export async function GET(_req: NextRequest) {
+export async function GET() {
   if (process.env.NODE_ENV !== "development") {
     return NextResponse.json({ error: "Not available in production" }, { status: 403 });
   }
