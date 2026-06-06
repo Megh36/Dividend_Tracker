@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { cn, formatInr, formatMarketCap, daysToExDate } from "@/lib/utils";
+import { cn, formatInr, formatMarketCap } from "@/lib/utils";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
