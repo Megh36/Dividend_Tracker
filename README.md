@@ -1,5 +1,7 @@
 # 📈 Dividend Tracker
 
+**🔗 Live:** [dividend-tracker-rkqg.vercel.app](https://dividend-tracker-rkqg.vercel.app)
+
 A real-time NSE dividend tracker built with Next.js 14 — track high-dividend stocks, monitor ex-dates, compare stocks, and get weekly email alerts every Monday.
 
 ---
@@ -122,7 +124,7 @@ src/
 
 ## 🌐 Deployment
 
-This project is deployed on Vercel. Every push to `main` triggers an automatic deployment.
+This project is live at **[dividend-tracker-rkqg.vercel.app](https://dividend-tracker-rkqg.vercel.app)**. Every push to `main` triggers an automatic deployment.
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Megh36/Dividend_Tracker)
 
