@@ -8,6 +8,7 @@ A real-time NSE dividend tracker built with Next.js 14 — track high-dividend s
 
 ## ✨ Features
 
+
 - **Live Stock Data** — Fetches real-time NSE stock prices and dividend info via `yahoo-finance2`
 - **Ex-Date Monitoring** — Track upcoming ex-dividend dates so you never miss a payout
 - **Stock Comparison** — Side-by-side comparison table for dividend yield, payout history, and more
